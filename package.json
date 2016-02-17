@@ -1,11 +1,24 @@
 {
   "name": "workflows",
-  "version": "0.0.1",
-  "description": "A project to showcase workflows",
-
+  "version": "1.0.0",
+  "description": "This project is an example  of  workflow management.",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-util": "^3.0.7",
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
-    "url": "?.git"
+    "url": "git+https://github.com/jaredkhunter/workflows.git"
   },
   "author": "Jared Hunter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaredkhunter/workflows/issues"
+  },
+  "homepage": "https://github.com/jaredkhunter/workflows#readme"
 }
